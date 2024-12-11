@@ -4,7 +4,7 @@ public class Main {
     // Main method to start the game
     public static void main(String[] args) {
         // Create a Minesweeper game with specific dimensions and number of mines
-        Minesweeper game = new Minesweeper(2, 2, 1);
+        Minesweeper game = new Minesweeper(5, 5, 2);
         game.displayBoard();
         //System.exit(0);
         // Game loop
